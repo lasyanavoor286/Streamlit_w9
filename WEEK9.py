@@ -18,7 +18,7 @@ load_dotenv()
 
 # load Backblaze connection
 b2 = B2(endpoint=os.environ['B2_ENDPOINT'],
-        key_id=os.environ['B2_KEYID'],
+        key_id=os.environ['B2_KeyID'],
         secret_key=os.environ['B2_applicationkey'])
 
 def get_data():
